@@ -7,11 +7,11 @@
 
 ---
 
-## 🔗 配套 AstrBot 插件（发码端，必装）
+##  配套 AstrBot 插件（发码端，必装）
 
 本补丁提供 **NewAPI 侧的验证逻辑**，但验证码是由 QQ 机器人发出的——那部分是一个独立的 AstrBot 插件：
 
-👉 **AstrBot 插件仓库**：
+ **AstrBot 插件仓库**：
 **https://github.com/7985200/astrbot_plugin_newapi_qq_group_verify**
 
 > 两个都要装：**没有插件，用户拿不到验证码；没有补丁，插件调用的接口不存在（404）**。
@@ -184,13 +184,13 @@ cd web && bun install && bun run build
 
 **插件是独立仓库，需另外安装**：
 
-👉 https://github.com/7985200/astrbot_plugin_newapi_qq_group_verify
+ https://github.com/7985200/astrbot_plugin_newapi_qq_group_verify
 
 - **安装**：在 AstrBot 插件市场搜索 **「NewAPI QQ群验证」** 安装，或把该仓库放进 AstrBot 的 `data/plugins/`；
 - **配置**：`newapi_base_url`（你的站点地址）、`bot_secret`（与后台 Bot 密钥一致）、`allowed_groups`（允许的群号，留空=所有群）；
 - 把机器人拉进群，群成员发 `/获取验证码` 即可。
 
-> ⚠️ **补丁和插件必须都装**：只装补丁 → 用户拿不到验证码；只装插件 → 接口 404。
+> ⚠ **补丁和插件必须都装**：只装补丁 → 用户拿不到验证码；只装插件 → 接口 404。
 
 ## 注意事项
 
