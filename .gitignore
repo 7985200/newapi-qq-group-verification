@@ -1,0 +1,14 @@
+# 依赖与构建产物
+node_modules/
+dist/
+*.exe
+*.log
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+
+# 系统
+.DS_Store
+Thumbs.db
