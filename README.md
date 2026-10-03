@@ -197,3 +197,13 @@ cd web && bun install && bun run build
 - 邮箱与 QQ 强绑定是本方案的核心（也是防小号的关键）：**非 QQ 邮箱用户无法通过验证**，如果你的站允许其他邮箱注册，请自行调整 `model/qq_group_verification.go` 里的 `QQNumberFromEmail`；
 - 站点需为 HTTPS 且 AstrBot 能访问到（插件服务端调用）；
 - 验证码只以 HMAC 摘要落库，明文不存储。
+
+---
+
+<sub>
+
+**关键词 / Keywords**：NewAPI 进群验证、NewAPI 加群验证、NewAPI QQ群验证、NewAPI 进群才能用、
+NewAPI 强制加群、NewAPI 群验证码、One API 进群验证、QQ群绑定、AstrBot 插件、
+newapi qq group verification、newapi force join qq group。
+
+</sub>
