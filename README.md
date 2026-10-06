@@ -202,8 +202,6 @@ cd web && bun install && bun run build
 
 <sub>
 
-**关键词 / Keywords**：NewAPI 进群验证、NewAPI 加群验证、NewAPI QQ群验证、NewAPI 进群才能用、
-NewAPI 强制加群、NewAPI 群验证码、One API 进群验证、QQ群绑定、AstrBot 插件、
-newapi qq group verification、newapi force join qq group。
+你喵！
 
 </sub>
